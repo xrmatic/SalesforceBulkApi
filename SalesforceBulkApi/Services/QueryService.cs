@@ -214,7 +214,7 @@ public class QueryService : IQueryService
 
         // Serialize the aggregated record list back to a JSON array
         var recordsJson = JsonSerializer.Serialize(allRecords, JsonOptions.Default);
-        return (recordsJson, allRecords.Count, pagesFetched);
+        return (recordsJson, totalRecords, pagesFetched);
     }
 
     private async Task PatchQueryJobStateAsync(
