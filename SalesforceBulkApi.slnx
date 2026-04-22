@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="SalesforceBulkApi.Tests/SalesforceBulkApi.Tests.csproj" />
+  <Project Path="SalesforceBulkApi/SalesforceBulkApi.csproj" />
+</Solution>
